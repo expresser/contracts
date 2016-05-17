@@ -1,0 +1,22 @@
+{
+  "name": "expresser/contracts",
+  "support": {
+    "issues": "https://github.com/expresser/contracts/issues",
+    "source": "https://github.com/expresser/contracts"
+  },
+  "authors": [
+    {
+      "name": "Graham Blevins",
+      "email": "hgblevins@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Expresser\\Contracts\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}

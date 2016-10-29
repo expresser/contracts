@@ -1,6 +1,8 @@
-<?php namespace Expresser\Contracts\Image;
+<?php
 
-interface Renderable {
+namespace Expresser\Contracts\Image;
 
-  public function render($classNames = null, $alt = null, $title = null);
+interface Renderable
+{
+    public function render($classNames = null, $alt = null, $title = null);
 }
